@@ -27,19 +27,8 @@ export const Card = () => {
                     <Input typeInput="text" nameLabel="Login" nameInput="Login" placeHolder="Login aqui"/>
 
                     <Input typeInput="password" nameLabel="password" nameInput="password" placeHolder="Senha aqui"/>
-        
-                    {/* <button type="submit" onClick={Login}  className="
-                  bg-green-600 
-                  text-l
-                  font-medium
-                  text-white
-                  h-10
-                  w-30
-                  mt-0 mr-auto mb-0 ml-auto 
-                  cursor-pointer
-                  ">Login</button> */}
-
-                        <Button btnContent="Login" event={Login} />
+    
+                    <Button btnContent="Login" event={Login} />
         
                   </div>
         
